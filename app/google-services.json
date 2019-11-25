@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "151037302774",
+    "firebase_url": "https://aulaandroid-a192b.firebaseio.com",
+    "project_id": "aulaandroid-a192b",
+    "storage_bucket": "aulaandroid-a192b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151037302774:android:5d8b790f77a5fcfa1819d7",
+        "android_client_info": {
+          "package_name": "br.edu.firebase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151037302774-be2r1cm5om15q71ksqp8mmnt7urlllva.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.firebase2",
+            "certificate_hash": "9b43ecd04b857c78c88329ae2f3c865d635b79d9"
+          }
+        },
+        {
+          "client_id": "151037302774-bg369gtt8mdjhi7onfnnsklaoedmicvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7yIGWtMF6_8FvdaIsZAwwukx7P85YQk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151037302774-bg369gtt8mdjhi7onfnnsklaoedmicvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151037302774:android:0960977963e8d8101819d7",
+        "android_client_info": {
+          "package_name": "br.edu.pomodjj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151037302774-rk7pd3un32gkh1rj7i2dnuv1jgrjrddb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.pomodjj",
+            "certificate_hash": "9b43ecd04b857c78c88329ae2f3c865d635b79d9"
+          }
+        },
+        {
+          "client_id": "151037302774-bg369gtt8mdjhi7onfnnsklaoedmicvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7yIGWtMF6_8FvdaIsZAwwukx7P85YQk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151037302774-bg369gtt8mdjhi7onfnnsklaoedmicvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151037302774:android:e8d4e68a76be9a451819d7",
+        "android_client_info": {
+          "package_name": "up.edu.br.jokenpo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151037302774-bg369gtt8mdjhi7onfnnsklaoedmicvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7yIGWtMF6_8FvdaIsZAwwukx7P85YQk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151037302774-bg369gtt8mdjhi7onfnnsklaoedmicvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
