@@ -45,6 +45,7 @@ public class Pomodoro_Tarefa extends AppCompatActivity {
 
                 public void onFinish() {
                     txtCronometro.setText("done!");
+
                     new CountDownTimer(ciclo.getTempoDescanso() * 60000, 1000) {
 
                         public void onTick(long millisUntilFinished) {
