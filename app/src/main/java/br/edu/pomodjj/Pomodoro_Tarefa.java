@@ -1,7 +1,13 @@
 package br.edu.pomodjj;
 
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Build;
 import android.os.CountDownTimer;
 import android.os.SystemClock;
+import android.os.VibrationEffect;
+import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -46,6 +52,14 @@ public class Pomodoro_Tarefa extends AppCompatActivity {
                 public void onFinish() {
                     txtCronometro.setText("done!");
 
+                    Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                        v.vibrate(VibrationEffect.createOneShot(2000, VibrationEffect.DEFAULT_AMPLITUDE));
+                    } else {
+                        v.vibrate(2000);
+                    }
+
                     new CountDownTimer(ciclo.getTempoDescanso() * 60000, 1000) {
 
                         public void onTick(long millisUntilFinished) {
@@ -60,6 +74,14 @@ public class Pomodoro_Tarefa extends AppCompatActivity {
 
                         public void onFinish() {
                             txtCronometro.setText("done!");
+
+                            Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+
+                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                                v.vibrate(VibrationEffect.createOneShot(2000, VibrationEffect.DEFAULT_AMPLITUDE));
+                            } else {
+                                v.vibrate(2000);
+                            }
                         }
 
                     }.start();
@@ -69,6 +91,11 @@ public class Pomodoro_Tarefa extends AppCompatActivity {
 
         }
 
+    }
+
+    public void Parar(View view){
+        Intent it = new Intent(getApplicationContext(), ListarPomo.class);
+        startActivity(it);
     }
 
 }

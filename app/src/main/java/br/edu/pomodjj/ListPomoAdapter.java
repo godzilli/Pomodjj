@@ -60,7 +60,7 @@ public class ListPomoAdapter extends RecyclerView.Adapter<ListPomoAdapter.MyView
     // Create new views (invoked by the layout manager)
     @Override
     public ListPomoAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent,
-                                                     int viewType) {
+                                                           int viewType) {
         // create a new view
         View c = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.layout_ciclo, parent, false);
